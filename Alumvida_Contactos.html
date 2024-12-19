@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <div style="position: fixed; top: 0; width: 100%; height: 60px; background-color: #AA9ABA; z-index: -1;">
+    <div style="position: fixed; top: 0; width: 100%; height: 60px; background-color: #D1ABAD; z-index: -1;">
     </div>
     <div style="width: 100%;display: flex; justify-content:space-between">
         <div
@@ -19,7 +19,7 @@
                 <div style="padding-top: 80px;">
                     <nav><a style="text-decoration: none;color: black; transition: color 0.6s;"
                             onmouseover="this.style.color='#FFA07A';" onmouseout="this.style.color='black';"
-                            href="file:///C:/Users/crist/OneDrive/Escritorio/PUCE/TICS/CristianParejaHTML/Alumvida_Inicio.html">
+                            href="Alumvida_Inicio.html">
                             <h3
                                 style="text-decoration: none;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
                                 Inicio</h3>
@@ -29,7 +29,7 @@
                 <div style="padding-top: 80px;">
                     <nav><a style="text-decoration: none;color: black; transition: color 0.6s;"
                             onmouseover="this.style.color='#FFA07A';" onmouseout="this.style.color='black';"
-                            href="file:///C:/Users/crist/OneDrive/Escritorio/PUCE/TICS/CristianParejaHTML/Alumvida_Servicios.html">
+                            href="Alumvida_Servicios.html">
                             <h3
                                 style="text-decoration: none;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
                                 Servicios</h3>
@@ -39,7 +39,7 @@
                 <div style="padding-top: 80px;">
                     <nav><a style="text-decoration: none;color: black; transition: color 0.6s;"
                             onmouseover="this.style.color='#FFA07A';" onmouseout="this.style.color='black';"
-                            href="file:///C:/Users/crist/OneDrive/Escritorio/PUCE/TICS/CristianParejaHTML/Alumvida_Acercade.html">
+                            href="Alumvida_Acercade.html">
                             <h3
                                 style="text-decoration: none;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
                                 Acerca de</h3>
@@ -49,7 +49,7 @@
                 <div style="padding-top: 80px;">
                     <nav><a style="text-decoration: none;color: black; transition: color 0.6s;"
                             onmouseover="this.style.color='#FFA07A';" onmouseout="this.style.color='black';"
-                            href="file:///C:/Users/crist/OneDrive/Escritorio/PUCE/TICS/CristianParejaHTML/Alumvida_Contactos.html">
+                            href="Alumvida_Contactos.html">
                             <h3
                                 style="text-decoration: none;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
                                 Contactos</h3>
@@ -62,38 +62,142 @@
 
     </div>
     <div style="min-height: 100vh;display: flex;align-items: center;justify-content: center;">
-        <form style="padding: 50px;box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);text-align: center;width: 340px;"
+        <div style="padding-right: 100px;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8001199553323!2d-78.49510142552293!3d-0.1730619354215269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5900cb4becf49%3A0xb053af23a9bbe444!2sFuneraria%20Los%20Lirios!5e0!3m2!1ses!2sec!4v1734626348606!5m2!1ses!2sec"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        <form
+            style="padding: 50px;box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);text-align: center;width: 340px;font-family: Arial, Helvetica, sans-serif;"
             action="https://formsubmit.co/cristhian.pt.1992@gmail.com" method="POST">
             <h1>CONTACTOS</h1>
             <div style="display: flex;flex-direction: column;text-align: left;padding: 17px 25px;">
-                <label style="margin-bottom: 15px;" for="name">Nombre(obligatorio)</label>
-                <input
-                    style="margin-bottom: 15px;border-radius: 25px;background-color: #D5CFDE;border:2px solid#F0FAF1;outline: none;"
-                    type="text" name="name" id="name" placeholder="Nombre">
+                <label style="margin-bottom: 15px;" for="name">Nombre</label>
+                <input style="margin-bottom: 15px;border-radius: 25px;;border:2px solid#000000;outline: none;"
+                    type="text" name="name" id="name" placeholder="">
 
-                <label style="margin-bottom: 15px;" for="phone">Telefono(obligatorio)</label>
-                <input
-                    style="margin-bottom: 15px;border-radius: 25px;background-color: #D5CFDE;border:2px solid#F0FAF1;outline: none;"
-                    type="tel" name="phone" id="phone" placeholder="Telefono">
+                <label style="margin-bottom: 15px;" for="phone">Teléfono</label>
+                <input style="margin-bottom: 15px;border-radius: 25px;border:2px solid#000000;outline: none;" type="tel"
+                    name="phone" id="phone" placeholder="">
 
-                <label style="margin-bottom: 15px;" for="email">Email(obligatorio)</label>
-                <input
-                    style="margin-bottom: 15px;border-radius: 25px;background-color: #D5CFDE;border:2px solid#F0FAF1;outline: none;"
-                    type="email" name="email" id="email" placeholder="Email">
+                <label style="margin-bottom: 15px;" for="email">Email</label>
+                <input style="margin-bottom: 15px;border-radius: 25px;border:2px solid#000000;outline: none;"
+                    type="email" name="email" id="email" placeholder="">
 
                 <label style="margin-bottom: 15px;" for="message">Mensaje</label>
-                <textarea style="margin-bottom: 15px;background-color: #D5CFDE;border:2px solid#F0FAF1;outline: none;"
-                    name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                <textarea style="margin-bottom: 15px;;border:2px solid#000000;outline: none;" name="message"
+                    id="message" cols="30" rows="5" placeholder=""></textarea>
             </div>
 
             <button
-                style="font-size: 25px;color: #000000;border: 0;border-radius: 25px;background-color: #ac9cbc ;box-shadow: 0 0 20px rgba(255, 149, 241, 0.4);cursor: pointer;"
+                style="font-size: 25px;color: #3f0202;border: 0;border-radius: 25px;background-color: #D1ABAD ;box-shadow: 0 0 20px #D1ABAD;cursor: pointer;"
                 type="submit">Enviar</button>
 
     </div>
 
 
     </form>
+
+    <div style="padding-top: 150px;">
+        <table style="border-collapse: collapse; margin: 0; padding: 0;">
+            <tr>
+                <th style="padding: 0 180px 0 30px;"><a
+                        style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: black; transition: color 0.6s;"
+                        onmouseover="this.style.color='#FFA07A';" onmouseout="this.style.color='black';"
+                        href="Alumvida_Inicio.html"><b>Inicio</b></a>
+                </th>
+                <th style="padding: 0 200px;">
+                    <p></p>
+                </th>
+                <th style="padding: 0 35px 0 0;">
+                    <p style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: black;"><b>Acerca
+                            de</b></p>
+                </th>
+                <th style="padding: 0 110px 0 0;">
+                    <p style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: black;">
+                        <b>Privacidad</b>
+                    </p>
+                </th>
+                <th style="padding: 0 30px 0 0;">
+                    <p style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: black;">
+                        <b>Social</b>
+                    </p>
+                </th>
+            </tr>
+
+            <tr>
+                <td style="margin: 0; padding: 0;">
+                    <p
+                        style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: rgb(70, 69, 69); margin: 0; padding: 0 0 0 43px;">
+                        Alumvida Servicios Exequiales</p>
+                </td>
+                <td style="margin: 10; padding: 0 200px;"><a></a></td>
+                <td style="margin: 0; padding: 0 90px;"><a
+                        style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: black;transition: color 0.6s;"
+                        onmouseover="this.style.color='#FFA07A';" onmouseout="this.style.color='black';"
+                        href="https://cristhianpt1992.wordpress.com/equipo-alumvida/">Equipo</a>
+                </td>
+                <td style="margin: 10; padding: 10 100px;"><a
+                        style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: black;transition: color 0.6s;"
+                        onmouseover="this.style.color='#FFA07A';" onmouseout="this.style.color='black';"
+                        href="https://cristhianpt1992.wordpress.com/politica-de-privacidad/">Política
+                        de privacidad</a>
+                </td>
+                <td style="margin: 10; padding: 0 100px;"><a
+                        style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: black;transition: color 0.6s;"
+                        onmouseover="this.style.color='#FFA07A';" onmouseout="this.style.color='black';"
+                        href="https://www.facebook.com/">Facebook</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="margin: 10; padding: 0;">
+                    <p></p>
+                </td>
+                <td style="margin: 10; padding: 0 200px;"><a></a></td>
+                <td style="margin: 10; padding: 0 90px;"><a
+                        style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: black;transition: color 0.6s;"
+                        onmouseover="this.style.color='#FFA07A';" onmouseout="this.style.color='black';"
+                        href="https://cristhianpt1992.wordpress.com/trabaja-con-nosotros/">Trabaja
+                        con nosotros</a>
+                </td>
+                <td style="margin: 10; padding: 10 100px;"><a
+                        style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: black;transition: color 0.6s;"
+                        onmouseover="this.style.color='#FFA07A';" onmouseout="this.style.color='black';"
+                        href="https://cristhianpt1992.wordpress.com/terminos-y-condiciones/">Términos
+                        y Condiciones</a>
+                </td>
+                <td style="margin: 10; padding: 0 100px;"><a
+                        style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: black;transition: color 0.6s;"
+                        onmouseover="this.style.color='#FFA07A';" onmouseout="this.style.color='black';"
+                        href="https://www.instagram.com/">Instagram</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="margin: 10; padding: 0;">
+                    <p></p>
+                </td>
+                <td style="margin: 10; padding: 0 200px;"><a></a></td>
+                <td style="margin: 10; padding: 0 50px;"><a></a>
+                </td>
+                <td style="margin: 10; padding: 0 100px;"><a></a>
+                </td>
+                <td style="margin: 20; padding: 0 100px;"><a
+                        style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: black;transition: color 0.6s;"
+                        onmouseover="this.style.color='#FFA07A';" onmouseout="this.style.color='black';"
+                        href="https://x.com/">Twitter/X</a>
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style="margin: 200; padding: 0 40px;color: rgb(70, 69, 69);font-family: Arial, Helvetica, sans-serif;">
+                    <p><i></i>Designed by<br> Paul Pareja<i></i></p>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
