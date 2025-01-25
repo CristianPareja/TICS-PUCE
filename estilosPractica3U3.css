@@ -1,0 +1,24 @@
+h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    color: red;
+}
+
+h2 {
+    font-size: 18px;
+    color: blue;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+p {
+    background-color: darkgreen;
+    color: aliceblue;
+}
