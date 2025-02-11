@@ -1,0 +1,11 @@
+.image {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.boton {
+    width: 10%;
+    background-color: cadetblue;
+    border-radius: 30px;
+    padding: 20px;
+}

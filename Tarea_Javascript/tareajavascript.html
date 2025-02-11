@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eventos</title>
+    <script src="tareajavascript.js"></script>
+    <link rel="stylesheet" href="tareajavascript.css">
+</head>
+
+<body>
+    <input onchange="cambio()" type="text" id="campoTexto" placeholder="Escribe tu mensaje">
+    <img onmouseover="mouse_encima()" class="image" src="gato.jpg" alt="Imagen Personal">
+    <input onkeypress="teclaPulsada()" type="text" placeholder="Escribe aquí"><br>
+    <button onclick="contadorClics()">Haz clic aquí</button>
+    <p id="contador">Clics: 0</p>
+    <button onmouseover="agrandarBoton(this)" style="transition: 0.3s; padding: 10px;">
+        Pasa el ratón
+    </button>
+</body>
+
+</html>
